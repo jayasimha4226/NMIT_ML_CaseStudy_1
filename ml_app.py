@@ -16,7 +16,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 #Loading up the Classification model we created
 model = DecisionTreeClassifier(criterion='entropy', max_depth=10, min_samples_leaf=5,random_state=0)
-model = joblib.load('finalized_model.joblib')
+model = joblib.load('finalized_model(1).joblib')
 #Caching the model for faster loading
 @st.cache
 
